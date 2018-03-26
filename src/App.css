@@ -1,0 +1,221 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #323339;
+}
+
+.App {
+  background-color: #e8e8e8;
+}
+
+.content{
+  width: 800px;
+  max-width: 100vw;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: #2a203d;
+  position: relative;
+}
+
+.first{
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1{
+  font-family: 'Economica', cursive;
+  color: #fed100;
+  text-align: center;
+  font-size:40px;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+}
+
+.mainTitle{
+  font-family: 'Economica', cursive;
+  color: #fed100;
+  width: calc(100% - 40px);
+  text-align: center;
+  font-size: 50px;
+  margin: 0 20px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.subTitle{
+  font-family: 'Economica', cursive;
+  color: #736c7f;
+  width: calc(100% - 40px);
+  text-align: center;
+  font-size: 40px;
+  margin: 10px 20px;
+  font-weight: bolder;
+  position: relative;
+}
+
+.social{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.social .socialIcon{
+  flex: 0 0 50px;
+  margin: 0 20px;
+  border-radius: 4px;
+}
+
+.social .socialIcon path{
+  fill: #fed100;
+}
+
+.section{
+  width: 100%;
+  min-height: 100px;
+  position: relative;
+  background-color: #e8e8e8;
+  padding: 20px;
+}
+
+.section p{
+  font-size: 15px;
+  text-align: justify;
+  color: #2a203d;
+  font-weight: bold;
+  position: relative;
+}
+
+.section p span{
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  display: inline-block;
+  color: #736c7f;
+}
+
+.form{
+  background-color: #2a203d;
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.formRow{
+  display: flex;
+}
+
+.input{
+  flex: 1;
+  margin: 0 0 20px 0;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.input:nth-child(2){
+  margin-left: 20px;
+}
+.input .inputLabel{
+  flex: 0 0 22px;
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 20px;
+  padding: 0 0 2px 0;
+  box-sizing: border-box;
+  font-family: 'Economica', cursive;
+  color: #fed100;
+  text-transform: uppercase;
+}
+.input .inputMain{
+  flex: 0 0 34px;
+  width: 100%;
+  background-color: #e8e8e8;
+  font-weight: bold;
+  color: #2a203d;
+  box-sizing: border-box;
+  padding: 10px 16px 6px 8px;
+  line-height: 18px;
+  font-size: 18px;
+  border-radius: 2px;
+  border: none;
+}
+.input .helpText{
+  flex: 0 0 18px;
+  line-height: 16px;
+  font-size: 12px;
+  padding: 2px 0 0 4px;
+  box-sizing: border-box;
+  color: #736c7f;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.checkbox{
+  height: 24px;
+  flex: 1;
+  display: flex;
+  margin-bottom: 10px;
+  color: #736c7f;
+}
+.checkbox .cbBox{
+  flex: 0 0 16px;
+  height: 16px;
+  margin: 4px;
+  background-color: #F8F3E6;
+  border-radius: 2px;
+}
+.checkbox .cbBoxCheck{
+  height: 8px;
+  width: 8px;
+  margin: 4px;
+  background-color: #736c7f;
+  border-radius: 2px;
+}
+
+.checkbox .cbText{
+  flex: 1;
+  line-height: 20px;
+  padding: 2px;
+  font-size: 20px;
+  font-family: 'Economica', cursive;
+  color: #fed100;
+  text-transform: uppercase;
+}
+
+.button{
+  background-color: #e8e8e8;
+  color: #2a203d;
+  font-family: 'Economica', cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-sizing: border-box;
+  height:34px;
+  padding: 7px;
+  line-height: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  border-radius: 2px;
+  flex: 0 0 80px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.buttonDisabled{
+  background-color: #736c7f;
+  color: #2a203d;
+  font-family: 'Economica', cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-sizing: border-box;
+  height:34px;
+  padding: 7px;
+  line-height: 20px;
+  font-size: 20px;
+  position: relative;
+  border-radius: 2px;
+  flex: 0 0 80px;
+  text-align: center;
+  margin-top: 10px;
+}
